@@ -12,24 +12,32 @@ void faster()
     cout.tie(0);
 }
 
+ll F[93];
+
+void sieve()
+{
+    F[1] = 1;
+    F[2] = 1;
+    for (int i = 3; i <= 92; ++i)
+    {
+        F[i] = F[i - 1] + F[i - 2];
+    }
+}
+
 const int mod = 1e9 + 7;
 const int MAXN = 1e5 + 5;
 
 int main()
 {
     faster();
-    int n, s;
-    cin >> n >> s;
-    vector<int> v(n);
-    for (int i = 0; i < n; ++i)
-        cin >> v[i];
-    sort(v.begin(), v.end(), greater<int>());
-    int sum = 0;
-    for (int i = 0; i < n; ++i)
+    sieve();
+    int t;
+    cin >> t;
+    while (t--)
     {
-        sum += s / v[i];
-        s -= v[i] * (s / v[i]);
+        int n;
+        cin >> n;
+        cout << F[n] << endl;
     }
-    cout << sum;
     return 0;
 }
