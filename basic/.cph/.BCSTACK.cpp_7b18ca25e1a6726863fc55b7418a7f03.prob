@@ -1,1 +1,0 @@
-{"name":"Local: BCSTACK","url":"d:\\SPOJ_PTIT\\basic\\BCSTACK.cpp","tests":[{"id":1732518711762,"input":"init\n\nempty\n\npush 2\n\nempty\n\ntop\n\npush 1\n\nsize\n\ntop\n\npop\n\ntop\n\ninit\n\npush 1\n\ntop\n\ninit\n\ntop\n\nend","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\SPOJ_PTIT\\basic\\BCSTACK.cpp","group":"local","local":true}
