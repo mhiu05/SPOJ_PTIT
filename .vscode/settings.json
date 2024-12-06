@@ -59,6 +59,7 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "cmath": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "bcfriend": "cpp"
   }
 }
