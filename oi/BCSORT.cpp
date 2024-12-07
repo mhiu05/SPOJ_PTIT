@@ -20,6 +20,5 @@ const ll module = 1e15 + 7;
 int main()
 {
     faster();
-
     return 0;
 }
