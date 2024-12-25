@@ -38,7 +38,6 @@ int main()
             cout << lcm(a[i], a[i - 1]) << " ";
         }
         cout << a[n - 1] << endl;
-        ;
-    }
+        }
     return 0;
 }

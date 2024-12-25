@@ -12,10 +12,8 @@ void faster()
     cout.tie(0);
 }
 
-const ll MOD = 1e18 + 7;
 const int mod = 1e9 + 7;
 const int MAXN = 1e5 + 5;
-const ll module = 1e15 + 7;
 
 int main()
 {
